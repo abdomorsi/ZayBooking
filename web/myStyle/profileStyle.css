@@ -1,0 +1,86 @@
+body {
+    height: 100%;
+    background-color: #04043a;
+}
+.container-p {
+    border-radius: 5px;
+    background-color: #020241;
+    padding: 20px;
+    width: 74%;
+    margin: auto;
+}
+
+.updForm {
+    border: 2px solid black;
+    width: 70%;
+    margin: auto;
+    background-color: #4b514c;
+    color: #d39e00;
+    font-family: 'Pacifico', sans-serif;
+}
+
+
+.updForm form {
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 20px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.updForm h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Courgette';
+}
+.form-item {
+    padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4b514c;
+    color: #ffea54;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+  color: #ffc107;
+    text-decoration: none;
+    background-color: #040b51;
+}
+
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.form-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}

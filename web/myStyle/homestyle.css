@@ -1,0 +1,39 @@
+body {
+    color: #031a7c;
+    background: #040b51;
+    font-family: 'Roboto', sans-serif;
+}
+
+.searchForm {
+    padding-top: 5%;
+    background: white;
+    margin-left: 14%;
+    margin-right:  14%;
+    padding-bottom: 9%;
+}
+.searchForm label{
+    color: goldenrod;
+    padding-top: 20px;
+}
+
+.searchForm button {
+    margin-left: 17%;
+    margin-top: 15px;
+    width: 66%;
+    background-color: black;
+    color: #ffc107;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-family: monospace;
+}
+
+.searchForm button:hover{
+  background-color: goldenrod;
+  color: white;
+  font-family: monospace;
+}
